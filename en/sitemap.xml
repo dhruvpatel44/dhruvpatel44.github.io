@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>dhruvpatel.space/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dhruvpatel.space/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dhruvpatel.space/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>dhruvpatel.space/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dhruvpatel.space/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dhruvpatel.space/"
+                />
+  </url>
+  
+  <url>
+    <loc>dhruvpatel.space/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dhruvpatel.space/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dhruvpatel.space/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>dhruvpatel.space/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dhruvpatel.space/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dhruvpatel.space/tags/"
+                />
+  </url>
+  
+</urlset>
