@@ -60,11 +60,15 @@
     <div class="article-entry" itemprop="articleBody">
       
       
-        <p align="justify">
+        <h3 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h3><p align="justify">
 
-<h3 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h3><p>The NVIDIA model is not giving appropriate results. The training error loss is weird.<br>At the very second epoch, the training loss will reach its minimum and from then on the MSELoss increases. I tried to train the model for Epochs : [5, 20, 25, 100, 200]. I found something interesting when I tried 200 epochs. After 100 epochs, the training error reduces and a normal training loss plot is visible. However, the error is not practical at all. It is nearly 8 or somethimes 10 km/h off the intended value. </p>
+<p>The NVIDIA model is not giving appropriate results. The training error loss is weird.<br>At the very second epoch, the training loss will reach its minimum and from then on the MSELoss increases. I tried to train the model for Epochs : [5, 20, 25, 100, 200]. I found something interesting when I tried 200 epochs. After 100 epochs, the training error reduces and a normal training loss plot is visible. However, the error is not practical at all. It is nearly 8 or somethimes 10 km/h off the intended value. </p>
 <p>I have to figure this out.</p>
-<h3 id="To-do"><a href="#To-do" class="headerlink" title="To-do"></a>To-do</h3><p>Here’s what i want to try next.</p>
+</p>
+
+<h3 id="To-do"><a href="#To-do" class="headerlink" title="To-do"></a>To-do</h3><p align="justify">
+
+<p>Here’s what i want to try next.</p>
 <ol>
 <li>change the Loss function from MSE-Loss to Smooth-L1-Loss</li>
 <li>change the input image size and see what changes it would make</li>
