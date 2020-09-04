@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Ai Speed Challenge | hashing.Ai</title>
+  <title>Archives: 2020/9 | hashing.Ai</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
@@ -38,71 +38,47 @@
 </header>
 
     <div id="content">
-      <article id="post-Ai-Speed-challenge" class="article article-type-post" itemprop="blogPost" itemscope>
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+      
+  <section class="archives-wrap" style="margin-bottom: 0.5em;">
+    <input class="hidden-input" type="checkbox" onClick="tgl(this)" id="toggle-all">
+    <label class="month" for="toggle-all">Toggle all</label>
+  </section>
   
-    <h2 class="article-title" itemprop="headline name">
-      Ai Speed Challenge
+  
+  
+    
+    
+    
+      
+      
+      
+      <section class="archives-wrap">
+        <input class="hidden-input" type="checkbox" name="expand" id="expand1">
+        <label class="month" for="expand1">September 2020</label>
+        <div class="archives hidden">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <time class="archive-article-date" datetime="2020-09-03T04:39:30.000Z" itemprop="datePublished">3</time>
+
+      
+  
+    <h2 class="archive-article-title" itemprop="name">
+      <a href="/2020/09/03/sudoku%20solver/">Sudoku Solver Using Backtracking</a>
+      
     </h2>
   
 
 
-        <div class="article-meta">
-          <time class="article-date" datetime="2020-08-29T04:39:30.000Z" itemprop="datePublished">August 29, 2020, 12:39 AM</time>
-
-          
-        </div>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-        <h3 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h3><p align="justify">
-The NVIDIA model is not giving appropriate results. The training error loss is weird.
-At the very second epoch, the training loss will reach its minimum and from then on the MSELoss increases. I tried to train the model for Epochs : [5, 20, 25, 100, 200]. I found something interesting when I tried 200 epochs. After 100 epochs, the training error reduces and a normal training loss plot is visible. However, the error is not practical at all. It is nearly 8 or somethimes 10 km/h off the intended value. 
-
-<p>I have to figure this out.</p>
-</p>
-
-<h3 id="To-do"><a href="#To-do" class="headerlink" title="To-do"></a>To-do</h3><p align="justify">
-Here's what i want to try next.
-
-<ol>
-<li>change the Loss function from MSE-Loss to Smooth-L1-Loss</li>
-<li>change the input image size and see what changes it would make</li>
-<li>change the normalization part (remove it if not needed)</p>
-</li>
-</ol>
-
-      
-    </div>
-    
-    
-    
+    </header>
   </div>
 </article>
 
   
-<nav id="article-nav" class="article-nav">
   
-    <span id="article-nav-newer" class="article-nav-link-wrap newer"></span>
+    </div></section>
   
-  
-    <a href="/2020/08/29/hello-world/" id="article-nav-older" class="article-nav-link-wrap older">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
-  
-</nav>
-
-
 
 
 
@@ -111,6 +87,10 @@ Here's what i want to try next.
   </div>
   
 
+
+<script type="text/javascript">
+let tgl=(s)=>{x=document.getElementsByName("expand");for(let i=0;i<x.length;i++)x[i].checked=s.checked;}
+</script>
 
 
 
